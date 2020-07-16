@@ -22,5 +22,8 @@
         "react"
     ],
     "rules": {
+        "comma-dangle": ["error", "never"],
+        "react/jsx-props-no-spreading": 0,
+        "react/destructuring-assignment": 0
     }
 }
