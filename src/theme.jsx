@@ -63,6 +63,9 @@ const customTheme = {
       fontFamily: 'button',
       fontSize: 'm',
       color: 'background',
+      ':hover': {
+        color: 'light'
+      },
       fontWeight: 'body',
       textDecoration: 'none',
       px: 10

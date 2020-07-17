@@ -22,7 +22,7 @@ const NavBar = (props) => (
       sx={{
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'top',
+        alignItems: 'flex-start',
         pt: 20,
         pr: 10
       }}
