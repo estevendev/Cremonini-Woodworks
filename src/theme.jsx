@@ -52,6 +52,21 @@ const customTheme = {
       color: 'background',
       fontWeight: 'heading'
     }
+  },
+  variants: {
+    navLogo: {
+      height: 125,
+      mx: 10,
+      href: '/test'
+    },
+    navLink: {
+      fontFamily: 'button',
+      fontSize: 'm',
+      color: 'background',
+      fontWeight: 'body',
+      textDecoration: 'none',
+      px: 10
+    }
   }
 }
 
