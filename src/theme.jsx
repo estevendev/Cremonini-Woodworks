@@ -28,17 +28,19 @@ const customTheme = {
     huge: 48
   },
   radii: {
-    square: '0px',
-    round: '6px'
+    square: 0,
+    round: 9999
   },
   buttons: {
     primary: {
       borderRadius: 'round',
       bg: 'main',
-      fontFamily: 'button',
+      fontFamily: 'default',
+      fontSize: 'm',
       ':hover': {
         bg: 'palette.4'
-      }
+      },
+      boxShadow: '3px 3px 15px #000'
     },
     secondary: {
       borderRadius: 'round',
@@ -55,20 +57,22 @@ const customTheme = {
   },
   variants: {
     navLogo: {
-      height: 125,
+      height: [175, 125],
       mx: 10,
       href: '/test'
     },
     navLink: {
-      fontFamily: 'button',
-      fontSize: 'm',
+      fontFamily: 'default',
+      fontSize: ['l', 'm'],
       color: 'background',
       ':hover': {
-        color: 'light'
+        color: 'main'
       },
       fontWeight: 'body',
       textDecoration: 'none',
-      px: 10
+      textTransform: 'uppercase',
+      px: 10,
+      pt: [10, 0]
     }
   }
 }

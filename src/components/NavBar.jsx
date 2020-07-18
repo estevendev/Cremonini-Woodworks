@@ -9,8 +9,7 @@ import {
 const NavBar = (props) => (
   <Flex
     sx={{
-      position: 'absolute',
-      flexDirection: 'row',
+      flexDirection: ['column', 'row', 'row'],
       justifyContent: 'space-between',
       width: '100vw'
     }}
@@ -20,11 +19,11 @@ const NavBar = (props) => (
     </a>
     <Flex
       sx={{
-        flexDirection: 'row',
+        flexDirection: ['column', 'row'],
         justifyContent: 'space-between',
-        alignItems: 'flex-start',
-        pt: 20,
-        pr: 10
+        alignItems: ['center', 'flex-start'],
+        mt: [-20, 20],
+        pr: [0, 10]
       }}
     >
       {

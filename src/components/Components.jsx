@@ -15,9 +15,9 @@ export const Backdrop = (props) => (
       backgroundImage: `url(${props.bgImg})`,
       backgroundSize: 'cover',
       flexDirection: 'column',
-      justifyContent: 'center',
+      justifyContent: 'space-between',
       alignItems: 'center',
-      height: ['60vh', '70vh', '75vh'],
+      height: ['70vh', '75vh'],
       textAlign: 'center'
     }}
   />
